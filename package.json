@@ -4,12 +4,21 @@
   "description": "Field Bot - a bot that works on the field",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
   },
   "author": "minh",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.17.2",
     "botbuilder": "^3.8.4",
-    "express": "^4.15.3"
+    "dotenv": "^4.0.0",
+    "express": "^4.15.3",
+    "node-fetch": "^1.7.1"
+  },
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb-base": "^11.2.0",
+    "eslint-plugin-import": "^2.3.0"
   }
 }
